@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: gray;
+    /* background: url(../pic/gradiant\ color.jpg) no-repeat; */
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-box{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border: 2px solid black;
+    color: red;
+    padding: 35px;
+}
+
+.user-name{
+    border-radius: 4px;
+    width: 77%;
+    margin-top: 23px;
+    -webkit-text-stroke-width: medium;
+    padding: 13px;
+}
+
+.login-button{
+    border-radius: 4px;
+    width: 84%;
+    margin-top: 23px;
+    -webkit-text-stroke-width: medium;
+    padding: 13px;
+    color: white;
+    background: greenyellow;
+}
